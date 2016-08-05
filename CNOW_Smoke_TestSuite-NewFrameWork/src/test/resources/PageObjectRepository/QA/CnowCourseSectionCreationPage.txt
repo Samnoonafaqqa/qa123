@@ -1,0 +1,8 @@
+
+
+# Cnow Course Section Creation:
+ 
+link_create_section: xpath: //table[@id='coursesTable']//a[@title = 'Create section']
+input_section_name: xpath: //input[@id='name']
+btn_create_section: id: createCourseNextStepButton
+txt_section_header: xpath: //h2[contains(text() , 'SECTION')]

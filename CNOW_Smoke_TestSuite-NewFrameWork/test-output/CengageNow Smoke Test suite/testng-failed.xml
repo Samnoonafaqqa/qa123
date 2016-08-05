@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [CengageNow Smoke Test suite]">
+  <test name="Test01_CNow_Smoke_Build_Version_Check">
+    <classes>
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Build_Version_Check"/>
+    </classes>
+  </test> <!-- Test01_CNow_Smoke_Build_Version_Check -->
+  <test name="Test02_CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment">
+    <classes>
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment"/>
+    </classes>
+  </test> <!-- Test02_CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment -->
+  <test name="Test03_CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation">
+    <classes>
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation"/>
+    </classes>
+  </test> <!-- Test03_CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation -->
+  <test name="Test04_CNow_Smoke_Student_Assignment_Takes">
+    <classes>
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Student_Take_All_Assignments_And_StudyTools"/>
+    </classes>
+  </test> <!-- Test04_CNow_Smoke_Student_Assignment_Takes -->
+  <test name="Test05_CNow_Smoke_Instructor_Gradebook">
+    <classes>
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Gradebook"/>
+    </classes>
+  </test> <!-- Test05_CNow_Smoke_Instructor_Gradebook -->
+  <test name="Test01_CNow_Smoke_Build_Version_Check(failed)">
+    <classes>
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Gradebook">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Gradebook -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Student_Take_All_Assignments_And_StudyTools">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Student_Take_All_Assignments_And_StudyTools -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Build_Version_Check">
+        <methods>
+          <include name="start_test_Session"/>
+          <include name="Test1_checkCNOWBuildVersion"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Build_Version_Check -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment -->
+    </classes>
+  </test> <!-- Test01_CNow_Smoke_Build_Version_Check(failed) -->
+  <test name="Test02_CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment(failed)">
+    <classes>
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Gradebook">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Gradebook -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Student_Take_All_Assignments_And_StudyTools">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Student_Take_All_Assignments_And_StudyTools -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Build_Version_Check">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Build_Version_Check -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment">
+        <methods>
+          <include name="Test02_createCourseSection"/>
+          <include name="Test01_2_createCourseByCopy"/>
+          <include name="Test01_3_createCourseByImport"/>
+          <include name="Test03_1_CreateCourseByImporitngLegacyCourseHavingSectionsOnly"/>
+          <include name="Test03_2_CreateCourseByImporitngLegacyCourseHavingSectionsAndAssignment"/>
+          <include name="start_test_Session"/>
+          <include name="Test01_1_createCourseManually"/>
+          <include name="Test04_createCourseAndRegisterToStudent"/>
+          <include name="Test_DeleteAllCreatedCourses"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment -->
+    </classes>
+  </test> <!-- Test02_CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment(failed) -->
+  <test name="Test03_CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation(failed)">
+    <classes>
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation">
+        <methods>
+          <include name="Test07_SignOUT"/>
+          <include name="Test03_createHomeworkTypeAssignment"/>
+          <include name="start_test_Session"/>
+          <include name="Test01_loginToSSODashboard"/>
+          <include name="Test06_createReadingTypeAssignment"/>
+          <include name="Test04_createTestTypeAssignment"/>
+          <include name="Test02_selectBookFromSSODashBoard"/>
+          <include name="Test05_createASTTypeAssignment"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Gradebook">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Gradebook -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Student_Take_All_Assignments_And_StudyTools">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Student_Take_All_Assignments_And_StudyTools -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Build_Version_Check">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Build_Version_Check -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment -->
+    </classes>
+  </test> <!-- Test03_CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation(failed) -->
+  <test name="Test04_CNow_Smoke_Student_Assignment_Takes(failed)">
+    <classes>
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Gradebook">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Gradebook -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Student_Take_All_Assignments_And_StudyTools">
+        <methods>
+          <include name="Test08_3_studentTakeReadingAssignment"/>
+          <include name="Test13_3_NewAccountMessageVerification"/>
+          <include name="Test08_1_studentTakeHomeworkAssignment"/>
+          <include name="Test08_2_studentTakeTestAssignment"/>
+          <include name="start_test_Session"/>
+          <include name="Test09_TakeAssignmentFromStudyToolsTab"/>
+          <include name="Test08_4_studentTakeASTAssignment"/>
+          <include name="Test13_2_Student_Enrollment"/>
+          <include name="Test13_1_Student_Account_Creation"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Student_Take_All_Assignments_And_StudyTools -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Build_Version_Check">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Build_Version_Check -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment -->
+    </classes>
+  </test> <!-- Test04_CNow_Smoke_Student_Assignment_Takes(failed) -->
+  <test name="Test05_CNow_Smoke_Instructor_Gradebook(failed)">
+    <classes>
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Gradebook">
+        <methods>
+          <include name="Test10_1_VerifyGradesForAST"/>
+          <include name="Test10_3_VerifyGradesForTest"/>
+          <include name="Test11_1_verifyAndDeleteTake"/>
+          <include name="Test10_4_VerifyGradesForReading"/>
+          <include name="start_test_Session"/>
+          <include name="Test10_2_VerifyGradesForHomework"/>
+          <include name="Test11_2_verifyIncompleteAssignment"/>
+          <include name="Test_signOut"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Gradebook -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Student_Take_All_Assignments_And_StudyTools">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Student_Take_All_Assignments_And_StudyTools -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Build_Version_Check">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Build_Version_Check -->
+      <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment">
+        <methods>
+          <include name="start_test_Session"/>
+        </methods>
+      </class> <!-- com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment -->
+    </classes>
+  </test> <!-- Test05_CNow_Smoke_Instructor_Gradebook(failed) -->
+</suite> <!-- Failed suite [CengageNow Smoke Test suite] -->

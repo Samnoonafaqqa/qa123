@@ -1,0 +1,7 @@
+# Student SSO Dashboard page.
+
+Title: CengageBrain - My Home
+
+#elementname: locatortype: locatorvalue
+accountingBook: xpath: //div[@id='myCoursesMainDiv']/div/div/div[2]/h4
+btn_open: xpath: //span[contains(text(),'${default}')]/../following-sibling :: li[1]/a

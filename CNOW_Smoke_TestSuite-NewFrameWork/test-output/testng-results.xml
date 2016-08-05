@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12289" started-at="2016-07-28T06:23:32Z" finished-at="2016-07-28T06:23:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12289" started-at="2016-07-28T06:23:32Z" finished-at="2016-07-28T06:23:45Z">
+      <class name="com.qait.automation.report.ResultsIT">
+        <test-method status="PASS" signature="setupMailConfig()[pri:0, instance:com.qait.automation.report.ResultsIT@60f82f98]" name="setupMailConfig" is-config="true" duration-ms="122" started-at="2016-07-28T11:53:32Z" finished-at="2016-07-28T11:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMailConfig -->
+        <test-method status="PASS" signature="changeReportColor()[pri:0, instance:com.qait.automation.report.ResultsIT@60f82f98]" name="changeReportColor" duration-ms="288" started-at="2016-07-28T11:53:32Z" finished-at="2016-07-28T11:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeReportColor -->
+        <test-method status="PASS" signature="sendResultsMail()[pri:0, instance:com.qait.automation.report.ResultsIT@60f82f98]" name="sendResultsMail" duration-ms="11843" started-at="2016-07-28T11:53:33Z" finished-at="2016-07-28T11:53:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendResultsMail -->
+      </class> <!-- com.qait.automation.report.ResultsIT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

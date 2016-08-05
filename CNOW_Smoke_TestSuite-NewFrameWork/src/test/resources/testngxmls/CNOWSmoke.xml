@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  verbose="0" name="CengageNow Smoke Test suite" preserve-order="true">
+	 
+	<test name="Test01_CNow_Smoke_Build_Version_Check" preserve-order="true">
+		<classes>
+			<class name="com.qait.cnowsmoke.tests.CNow_Smoke_Build_Version_Check"></class>
+        </classes> 
+    </test>    
+
+    <test name="Test02_CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment" preserve-order="true">
+		<classes>
+			<class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Course_Section_Creation_Deletion_And_Student_Enrollment"></class>
+        </classes> 
+    </test>    
+
+    <test name="Test03_CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation" preserve-order="true">
+		<classes>
+			<class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Homework_AST_Reading_Test_Assignment_Creation"></class>
+        </classes> 
+    </test> 
+   
+    <test name="Test04_CNow_Smoke_Student_Assignment_Takes" preserve-order="true">
+		<classes>
+			<class name="com.qait.cnowsmoke.tests.CNow_Smoke_Student_Take_All_Assignments_And_StudyTools"></class>
+        </classes> 
+    </test> 
+    
+    <test name="Test05_CNow_Smoke_Instructor_Gradebook" preserve-order="true">
+		<classes>        
+            <class name="com.qait.cnowsmoke.tests.CNow_Smoke_Instructor_Gradebook"></class> 			
+		</classes>
+	</test>
+	
+</suite>

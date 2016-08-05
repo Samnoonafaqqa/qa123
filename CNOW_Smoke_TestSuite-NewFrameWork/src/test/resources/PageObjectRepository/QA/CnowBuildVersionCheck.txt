@@ -1,0 +1,4 @@
+#CnowBuildVersionCheck
+#elementname: locatortype: locatorvalue
+Title: CengageNOW | Online teaching and learning resource from Cengage Learning
+txt_cnow_build_version: xpath: //div[3]/div/ul/li[last()]

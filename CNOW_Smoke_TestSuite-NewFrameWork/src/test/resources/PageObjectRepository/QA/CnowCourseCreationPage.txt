@@ -1,0 +1,41 @@
+#CNOW Courses Page
+Title:CengageNOW | Courses | Overview
+btn_create_course: xpath: //a[@class='button primary']
+
+#CNow Course Creation:
+
+#Step 1- Choose Type:
+tab_chooseType_heading: xpath: //div[@id='overview_main']/div/h2 
+radio_create_course_manually: id: processTypeManual
+radio_create_course_copy: id: processTypeCopy
+radio_create_course_import: id: processTypeImport
+btn_continue: id: createCourseNextStepButton
+
+#Step 2- Course Information:
+radio_syllabus: xpath: //input[@id='syllabusModeUrl']
+input_syllabus: xpath: //input[@id='syllabusUrl']
+tab_courseInfo_heading: xpath: //div[@class='pageContentBody']/h2
+dropDown_books: id: bookSelector
+input_course_name: id: name
+input_start_date: id: startDateTimeFormat
+drop_down_year: xpath: //select[@class='ui-datepicker-year']
+year: xpath: //select[@class='ui-datepicker-year']/option[text()='2015']
+input_end_date: id: endDateTimeFormat 
+btn_create_course: id: createCourseNextStepButton
+btn_date_done:xpath: //button[contains(@class,'ui-datepicker-close ')]
+
+#Step 3- Course Created Page
+header_courseCreated: xpath: //h2[contains(text() , 'COURSE')]
+
+
+#Section Creation
+link_create_section: xpath: //table[@id='coursesTable']//a[@title = 'Create section']
+section_created: xpath: //th[contains(text(),'Sections')]/../td/div/a
+assignment_created: xpath: //div[contains(@id,'assignmentsTable')]//a[contains(@title,'View')]
+
+# Course creation->Choose type->Copy exiting course option->Choose course page
+dropDown_choose_course: id: courseSelector
+
+# Course creation->Choose type->Import existing course option->browse course page
+btn_browse_course: xpath: //span[@id='fileContainer']/input[@type='file']
+get_focus_Out_getFormID: xpath: //div[@id='overview_main']/div/h2

@@ -1,0 +1,14 @@
+#Cnow Student Enrollment 
+#elementname: locatortype: locatorvalue
+Title: CengageNOW | Assignments | Overview
+input_stu_name: xpath: (//input[@id='email'])[1]
+input_stu_pass: xpath: .//*[@id='fmPassword']
+#input_stu_pass: xpath: .//*[@id='password']
+btn_submit: xpath: //*[@id='returningCustomer']//a[@class='greenWhiteButton']
+link_course_key: xpath: .//a[@target='_blank']
+text_welcome: xpath: //div[@id='twoOptions']/h1
+link_goToMyHome: xpath: //form[@id='goHome']/a
+link_logout: linktext: Sign Out
+link_globalUserIcon: id: globalUserIcon
+btn_open: xpath: //a[@class='viewDetailsBtn aplia_button']
+link_SSO_logout: linktext: Log Out

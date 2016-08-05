@@ -1,0 +1,14 @@
+
+tab_gradebook: xpath: //a[text()='Gradebook']
+score_link: xpath: //a[contains(text(),'%')] 
+#score_link://table[@id='gradebookTable']/tbody/tr/td[2]/a
+check_take: name: takeIds
+btn_delete_selected_take: xpath: //input[contains(@value,'Delete Selected Take')]
+btn_modularOK: xpath: .//div[@class='ui-dialog-buttonset']/button[1]
+btn_return_without_save: xpath: //input[contains(@value,'Without Saving')]
+score_link_not_taken: xpath: //a[text()='not taken']
+resume_assignment: xpath: //a[contains(@title,'${assignment}')]/../../..
+inprogress_icon: xpath: (//td[contains(@class,'${assignmentID}')]/a)[1]
+reading_score: xpath: (//td[contains(@class,'${assignmentID}')])[1]
+input_findstud: xpath: //input[@id='findStudentSearchBox']
+btn_find: xpath: //div[@id='studentSearch']//input[@value='Find']

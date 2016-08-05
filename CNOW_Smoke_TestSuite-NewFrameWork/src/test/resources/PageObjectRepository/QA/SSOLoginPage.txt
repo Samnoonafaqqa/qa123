@@ -1,0 +1,6 @@
+# SsoLoginPage
+#elementname: locatortype: locatorvalue
+Title: Cengage Learning - Login
+inp_UserName: id: emailId
+inp_Password: id: password
+btn_SignIn: xpath: //input[@type='submit'] 

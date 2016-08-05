@@ -1,0 +1,61 @@
+
+
+#-------------StagingWest Credentials 
+sso_login_url: https://s-c-login.cengage.com/cb/
+
+switch_url: http://stagingwest.ilrn.com/
+#switch_url: http://tnow-qa8.ilrn-support.com/
+
+
+cnow_build_version: 7.523.23
+
+users:
+  instructor:
+    username: Cnow_inst_055@swlearning.com
+    password: TAP1234   
+  
+  student:
+    username: Cnow_stu_047@swlearning.com
+    password: TAP1234
+    name: Stu047
+
+usertype:
+  type1: instructor
+  type2: student
+  
+book_name: Warren/Reeve/Duchac, Accounting, 25th Edition 
+ 
+course_name: CNowCourse
+section_name: NewSection
+
+NewAccountMessage: New CengageNOW Account
+
+
+browser: Chrome
+
+#Decide Team [Auto], [Client] & [Release]
+team: Client
+
+
+# Following details are to send the emailable report to all the recepients after test execution
+email:
+  send: no 
+  recipient156: tony.howard@cengage.com
+  recipient289: Abhishek.Rai@cengage.com
+  recipient1: Priyanka.Vanama@contractor.cengage.com
+  recipient2: kamaljeetkaur@qainfotech.com
+  recipient3: ilrnqa@qainfotech.com
+  recipient6: jitendrasaxena@qainfotech.net
+  recipient7: samnoonafaq@qainfotech.net
+  recipient8: vikasrana@qainfotech.net
+
+#Following details are neccassary for capturing screenshots
+screenshot:
+  takeScreenshot: yes
+  dirpath: "src/test/screenshots/"  
+  ftpUpload:
+    uploadImage: no
+    url: localhost
+    userid: testaccount
+    password: testpassword
+  

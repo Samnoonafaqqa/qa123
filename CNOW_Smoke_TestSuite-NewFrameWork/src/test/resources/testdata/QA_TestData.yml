@@ -1,0 +1,48 @@
+
+
+#-------------Staging Server Credentials 
+cnow_build_url: http://staging.ilrn.com/
+sso_login_url: https://s-login.cengage.com
+switch_url: staging.ilrn.com
+
+cnow_build_version: Version develop.1.SNAPSHOT
+
+users:
+  instructor:
+    username: cnow_instQA04_aut2014@qaittest.com
+    password: TAP1234   
+  
+  student:
+    username: cnow_stud17_aut2014@qaittest.com
+    password: TAP1234
+    name: Automated
+
+usertype:
+  type1: instructor
+  type2: student
+  
+book_name: Warren/Reeve/Duchac, Accounting, 25th Edition 
+ 
+course_name: CNowCourse
+section_name: NewSection
+
+
+browser: Chrome
+
+# Following details are to send the emailable report to all the recepients after test execution
+email:
+  send: no
+  recepients: 
+    recepient1: jitendrasaxena@qainfotech.net
+    recepient2: himanimittal@qainfotech.net
+
+#Following details are neccassary for capturing screenshots
+screenshot:
+  takeScreenshot: yes
+  dirpath: "src/test/screenshots/"  
+  ftpUpload:
+    uploadImage: no
+    url: localhost
+    userid: testaccount
+    password: testpassword
+  

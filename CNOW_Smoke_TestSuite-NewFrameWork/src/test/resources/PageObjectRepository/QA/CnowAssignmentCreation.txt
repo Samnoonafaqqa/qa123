@@ -1,0 +1,56 @@
+
+stud_course: xpath: //*[@id='courseSelectorTree']//a[contains(text(),'${default}')]
+
+# Assignment Creation Page
+tab_assignment: xpath: //ul[contains(@id , 'global')]/li[4]/a
+btn_create_assigment: xpath: //div[@class = 'calloutBox']//a[text()='Create Assignment']
+
+# Assignment choose type page:
+choose_process_heading: xpath: //div[@id='overview_main']/div/h2
+btn_continue: id: createCourseNextStepButton
+radio_btn_homework: id: ID_HOMEWORK
+radio_btn_test: id: ID_TEST
+radio_btn_AST: id: ID_AST
+radio_btn_reading: id: ID_MINDATAP_READER
+
+# Assignment info
+input_name: id: assignmentName
+input_start_date: id: availableDateFormat
+startDate: xpath: //a[text()='1']
+drop_down_month: xpath: //select[@class='ui-datepicker-month']
+endDate: xpath: //a[text()='31']
+input_end_date: id: dueDateFormat
+btn_date_done: xpath: //button[text()='Done']
+btn_info_continue: id: assignmentInfoNextStepButton
+assignment_info_heading: xpath: //div[@id='overview_main']/div/h2
+
+# Assignment select chapter page:
+avail_question_heading: xpath: //div[@id='overview_main']/div/h3
+ast_avail_question_heading:  xpath: //div[@class = 'pageContentBody']/h2
+ast_content_select: classname: configTitle
+expand_books: xpath: //span[contains(text(),'(TestBank)')]/..//*[contains(@class,'lltree_node_control')]
+ast_expand_books: xpath: //span[contains(text(),'Warren/Reeve')]/..//*[contains(@class,'lltree_node_control')]
+mindap_expand_books: xpath: //*[@id='mindtapReaderContentContainer']/ul/li/ins
+mindap_chapter_3: xpath: //a[contains(text(),'Chapter 3')]
+chapter_one: xpath: //span[contains(text(),'Chapter 3')]/../span/img[contains(@class,'lltree_node_checkbox')]
+ast_chapter_one: xpath: //span[contains(text(),'Chapter 3')]/../span/img[contains(@class,'lltree_node_checkbox')]
+btn_chapter_continue: xpath: //input[@title = 'Continue']
+link_select_none: xpath: //div[4]/ul/li[2]/a[contains(text() , 'Select None')]
+input_typeCount: id: typeCounts1
+
+
+# Included question page
+included_ques_heading: xpath: //div[@id = 'progressStepsDiv']/table/tbody/tr/td/span/span[contains(text() , 'Included Questions')]
+check_all_ques: id: checkallBox
+btn_include_all_ques: id: itemDestinationButton
+dropDown_items: id: itemDestinationDropdown
+btn_create_pool: id: itemDestinationButton
+btn_create_on_overlay: xpath: //button[@title = 'Create'] 
+
+btn_create_assignment: id: doneButton
+assignment_options_heading: xpath: //div[@id = 'progressStepsDiv']/table/tbody/tr/td/span/span[contains(text() , 'Options')]
+
+assignment_created_heading: xpath: //div[@class = 'pageContentBody']/form/h2
+
+
+

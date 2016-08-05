@@ -1,0 +1,7 @@
+
+
+check_all_courses: id: checkAll
+link_show_all: linktext: Show All Options
+list_courses_actions: id: courseManager
+btn_popup_ok: xpath: .//div[@class='ui-dialog-buttonset']/button[1]
+btn_pop_ok: xpath: //span[text()='OK']

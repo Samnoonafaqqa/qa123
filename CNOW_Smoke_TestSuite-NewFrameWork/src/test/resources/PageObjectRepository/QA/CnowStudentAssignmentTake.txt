@@ -1,0 +1,84 @@
+
+Title: CengageNOW | Assignments | Overview
+btn_assignment_take: xpath: (//td[contains(text(),'${abc}')]/..//form/ul//input[@value='Take'])[2]
+btn_assignment_start: xpath: //*[@id='readyButtons']/a
+tab_assignment: linktext: Assignments
+radio_item: xpath: //img[@class='rejoinder']
+radio_option: xpath: //table[@class='choiceTable']/tbody/tr[${default}]/td/table/tbody/tr/td[1]/input 
+link_checkMyWork: linktext: Check My Work
+feedback_txt: xpath: //div[contains(@id,'feedBackWidgetOverallContainer')]/div[2]
+btn_assignment_submit: id: submitButtonhead
+btn_modular_submit: xpath: //div[@class='ui-dialog-buttonset']/button[2]
+header_assignment_finished: xpath: //h2[contains(text(),'Finished')]
+drop_down_course: xpath: //span[@id='courseSelectorActive']
+link_mindtap: xpath: //a
+btn_exit: xpath: (//input[@id='exitButtonTop'])[2]
+stud_course: xpath: //*[@id='courseSelectorTree']//a[contains(text(),'${default}')]
+iframe_reading: xpath: //iframe[@id='contentiFrame']
+
+iframe_ast: xpath: //iframe[@id='contentiFrame']
+ast_pre_start_link: xpath: (//div[contains(text(),'Pre-Test')])[2]
+ast_pre_choice: xpath: //table[@class='choiceTable']/tbody/tr[${choice}]//input
+ast_pre_ques_enter: xpath: //input[contains(@value,'Enter Answer')]
+ast_pre_end: xpath: //div[@class='itemHeaderButtons']//a
+pop_up_pre_end: xpath: //button[contains(@title,'End Pre-Test')]
+pre_score: xpath: //table[@class='testResultPageTable']/tbody/tr//td[contains(text(),'Score')]/span
+link_post_test: xpath: //div[contains(text(),'Take A Post-Test')]
+pop_up_post_end: xpath: //button[contains(@title,'End Post-Test')]
+btn_ast_submit: xpath: //input[@id='submitButtonTop']
+btn_ast_submit_popup: xpath: //button[contains(@title,'OK')]
+score_finished_page: xpath: //p[contains(text(),'score')]/strong
+score_on_finishedpage: xpath: //div[@id='overview_main']/div/p[1]/strong
+
+btn_save: xpath: //input[@id='saveButtonhead']
+btn_exit_hw: xpath: //input[@id='exitButtonfoot']  
+link_resume: xpath: //a[@title='Resume This Assignment']
+
+#study tools
+tab_studytools: xpath: //a[contains(@title,'Study Tools')] 
+
+#Create New Student
+link_newStudentUser: xpath: //a[contains(text() , 'New Student User')]
+link_dontHaveAcc: xpath: //a[@id='showNewUserReg']
+input_email: xpath: //div[@class='newUser open']//input[@id='email']
+btn_createNewAcc: xpath: //a[@id='standaloneRegistration_createNew']
+input_FName: xpath: //input[@id='fname']
+input_LName: xpath: //input[@id='lname']
+input_Pass: xpath: //input[@id='password']
+input_ConfirmPass: xpath: //input[@id='confirmPassword']
+select_que: xpath: //a[@class='selectboxit-option-anchor' and contains(text(),'high school')]
+btn_arrow_que: xpath: .//*[@id='questionSelectBoxItArrow']
+input_Ans: xpath: //input[@id='answer']
+check_agreement: xpath: //input[@id='acceptEULA']
+btn_createMyAcc: xpath: //a[@class='greenWhiteButton']
+drop_down_loc_select:id:locationSelectBoxItText
+input_institute_name:id:search
+drop_down_inst_type:xpath:(//*[@id='institutionTypeSelectBoxItArrow'])[2]
+option_inst:xpath://a[contains(text(),'University')]
+institute_southAmrca: xpath: .//*[@id='locationSelectBoxItOptions']/li[last()]/a
+institute_adams: xpath: //strong[contains(text(),'ADAMS')]
+btn_continue: xpath: //a[text()='Continue']
+bttn_search:xpath://a[@class='greenWhiteButton']
+
+
+input_accessCode: xpath: //input[@id='registerAccessCode']
+btn_register: xpath: //a[contains(@class,'register_button')]
+popup_product: xpath: //a[@id='IACSelf']
+msg_noCourses: xpath: //div[@class='studentNotEnrolledInCourse']/p[1]
+btn_continue_courseInfo: xpath: //form[@id='apliaContinueForm']/a[@class='small_green_button']
+btn_continue_creditApply: xpath: //a[@class='paymentOptionsBtn']
+btn_open: xpath://span[contains(text(),'${courseName}')]/../following-sibling :: li/a[text()='Open']
+btn_takeToMyCourse: xpath: //a[@class='gracePeriodBtn']
+btn_continue_new_account: xpath: //input[@title='Continue']
+text_newaccount: xpath: //div[@class='pageContentBody']/h2
+
+#Study Tools
+btn_studyPlanView: xpath: //a[contains(@title,'Study Plan View')]
+iframe_studyTools_tab: id: contentiFrame
+btn_take_quiz: xpath: //a[contains(text(),'Take')]
+frame_inner_section: xpath: //frame[@name='section']
+tab_grades: xpath: //a[contains(@title,'Grades')]
+link_study_tools_grades: xpath:  //a[contains(@title,'results')]
+score_studyTool: xpath: //td[@class='numeric']
+btn_post_take: xpath: //td[@class='post-access']//a[text()='Take']
+btn_studyToolHome: xpath: //div[@class='headerNav']/a/img

@@ -1,0 +1,9 @@
+#CNow Home Page
+#elementname: locatortype: locatorvalue
+Title: Home
+instructor_home_title: xpath: //a[@title='Home']
+tab_courses: xpath: //ul[contains(@id , 'global')]/li[2]/a
+icon_global: id: globalUserIcon
+link_logOut: linktext: Sign Out
+okButton: xpath: //div[@class = 'right-align']/input
+viewCourseButton: xpath: //div[@class = 'right-align']/input[2]

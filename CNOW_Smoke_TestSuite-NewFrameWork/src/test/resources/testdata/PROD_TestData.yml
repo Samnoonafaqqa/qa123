@@ -1,0 +1,55 @@
+
+
+#-------------Production Credentials
+
+sso_login_url: https://login.cengage.com
+switch_url: http://west.cengagenow.com/
+
+cnow_build_version: 7.523.23 
+
+users:
+  instructor:
+    username: Cnow_inst_053@swlearning.com
+    password: TAP1234   
+  
+  student:
+    username: Cnow_stu_053@swlearning.com
+    password: TAP1234
+    name: Name, Stu053
+
+usertype:
+  type1: instructor
+  type2: student
+  
+book_name: Warren/Reeve/Duchac, Accounting, 25th Edition 
+NewAccountMessage: New CengageNOW Account 
+course_name: CNowCourse
+section_name: NewSection
+
+#Decide Team [Auto], [Client] &[Release]
+team: Release
+
+browser: Chrome
+
+# Following details are to send the emailable report to all the recepients after test execution
+email:
+   send: no
+   recipient1: tony.howard@cengage.com
+   recipient2: Abhishek.Rai@cengage.com
+   recipient3: Priyanka.Vanama@contractor.cengage.com
+   recipient4: kamaljeetkaur@qainfotech.com
+   recipient5: ilrnqa@qainfotech.com
+   recipient6: jitendrasaxena@qainfotech.net
+   recipient7: samnoonafaq@qainfotech.net
+   recipient8: vikasrana@qainfotech.net
+
+#Following details are neccassary for capturing screenshots
+screenshot:
+  takeScreenshot: yes
+  dirpath: "src/test/screenshots/"  
+  ftpUpload:
+    uploadImage: no
+    url: localhost
+    userid: testaccount
+    password: testpassword
+  

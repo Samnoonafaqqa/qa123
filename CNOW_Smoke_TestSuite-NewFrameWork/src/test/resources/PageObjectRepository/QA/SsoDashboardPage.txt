@@ -1,0 +1,4 @@
+# Element on the SsoDashboardPage
+Title: Instructor SSO - Instructor Resource Center
+drop_down_book: id: productISBN
+selected_book: xpath: //ul[1]/li/a[contains(@data-track-ext , 'CengageNOW ')]
